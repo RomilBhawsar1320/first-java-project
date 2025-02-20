@@ -15,6 +15,10 @@ class calculatorOps{
 
         return a*b;
     }
+
+    public int div(int a, int b){
+        return a/b;
+    }
 }
 
 
@@ -27,7 +31,7 @@ public class Calculator{
 
         calculatorOps obj = new calculatorOps();
 
-        System.out.println(obj.add(3, 4));
-        
+        System.out.println(obj.add(3, 4)) ;
+        System.out.println(obj.div(6, 2));
 }
 }
